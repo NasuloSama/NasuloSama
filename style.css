@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image: url(./Image/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+    color: #fff;
+    padding: 1px 30px;
+    position: absolute;
+    top: 15px;
+    left: 900px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 2rem;
+
+}
+
+.logo span{
+    color: rgb( 238, 256, 11);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.6 ease;
+   
+}
+
+ul li a:hover{
+    background: #fff;
+    color: black;
+}
+
+
+
+
+
+
+
+#wrap {
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+}
+
+.navbar {
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    position: 155;
+  }
+
+  .navbar li {
+    height: auto;
+    width: 220.8px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 17px/2em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar a {
+    padding: 18px 0;
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+
+.navbar li ul {
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar li:hover ul {
+    display: block;
+  }
+
+  .navbar li ul li {
+    background-color: #444444;
+  }
+
+  .navbar li ul li a {
+    border-left: 1px solid #444444;
+    border-right: 1px solid #444444;
+    border-top: 1px solid #c9d4d8;
+    border-bottom: 1px solid #444444;
+  }
+
+  .navbar li ul li a:hover {
+    background-color: #a3a1a1;
+  }
+
+  
